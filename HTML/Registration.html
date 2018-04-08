@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<!-- action - where the form sends data to -->
+	<!-- method - what http mehtod(get/post) -->
+
+	<form>
+		<label for = "name">First Name:</label>
+		<input id = "name" type="text" placeholder="John" required="true">
+
+		<label for = "lastName">Last Name:</label>
+		<input id = "lastName" type="text" placeholder="Smith" required>
+
+		<p></p>
+
+		<label for = "male">Male: </label>
+		<input type="radio" name="GenderChoice" id = "male" value = "MALE" checked>
+
+		<label for = "female">Female: </label>
+		<input type="radio" name="GenderChoice" id = "female" value = "FEMALE">
+
+		<p></p>
+
+		<label for = "email">Email: </label>
+		<input type="email" name="Email" id="email" placeholder="Your Email" required>
+
+		<label for = "password">Password: </label>
+		<input type="password" name="Password" id = "password" placeholder="Your Password" pattern=".{5,15}" required title="5 to 15 characters">
+
+		<p/>
+
+		<label for = "birthdate">Birthdate: </label>
+		<select name = "month" id="birthdate">
+			<option>Month</option>
+			<option>March</option>
+			<option>April</option>
+			<option>May</option>
+		</select>
+
+		<select name = "day" id="birthdate">
+			<option>Day</option>
+			<option>24</option>
+			<option>25</option>
+			<option>26</option>
+		</select>
+
+		<select name = "year" id="birthdate">
+			<option>Year</option>
+			<option>1993</option>
+			<option>1994</option>
+			<option>1995</option>
+		</select>
+
+		<p></p>
+
+		<label for="terms">I agree to the terms and conditions</label>
+		<input type="checkbox" id="terms" required>
+		<p></p>
+		<button>Submit</button>
+	</form>
+	
+</body>
+</html>

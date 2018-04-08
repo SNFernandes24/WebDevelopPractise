@@ -1,0 +1,40 @@
+body {
+	margin: 50px auto;
+	border: 5px solid gray;
+	border-width: 15px;
+	padding: 15px;
+	max-width: 900px;
+	width: 80%;
+}
+h4 {
+	font-family: Mina;
+	color: blue;
+	letter-spacing: 0.3rem;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-family: Berkshire Swash;
+	font-size: 40px;
+}
+
+.smallText {
+	border-left: 3px solid blue;
+	padding-left: 10px;
+	font-size: 2em;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+p {
+	font-family: Dancing Script;
+	font-size: 3em;
+}
+div {
+	margin-bottom: 50px;
+}

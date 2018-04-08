@@ -1,0 +1,53 @@
+p {
+	font-family: East Sea Dokdo;
+}
+
+h1 {
+	font-family: Hi Melody;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+p {
+	font-size: 2.0em;
+}
+
+p {
+	font-weight: bold;
+}
+
+p {
+	line-height: 1.5;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: right;
+}
+
+p {
+	text-decoration: line-through;
+}
+td {
+	width: 100px;
+	height: 100px;
+}
+
+table {
+	border-collapse: collapse;
+	margin: auto;
+}
+.horizontal {
+	border-top: 2px solid blue;
+	border-bottom: 2px solid blue;
+}
+
+.vertical {
+	border-left: 2px solid blue;
+	border-right: 2px solid blue;
+}
