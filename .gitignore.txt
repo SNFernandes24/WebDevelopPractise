@@ -1,1 +1,1 @@
-/ColorGuessingGame
+ColorGuessingGame/
